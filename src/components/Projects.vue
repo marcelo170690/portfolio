@@ -76,7 +76,7 @@
           id: 6,
           name: 'Siaccount',
           description: '(Proyecto personal) Aplicación web que permite el control de cuentas email y la gestion de usuarios, password y paginas en cada una ',
-          link: 'https://games.team7binary.com/',
+          link: 'https://github.com/marcelo170690/siaccount',
           image: 'https://imgurl.me/images/2020/05/18/siaccounte87bbad801d1a201.png',
           tools: [
             {id: 1, name: 'Laravel 5.6'},
