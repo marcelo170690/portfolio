@@ -3,7 +3,7 @@
     <div class="float-left">
       <div class="form-inline">
         <img src="https://imgurl.me/images/2020/05/19/portfolio-3692d5003859593957.png" alt="portfolio 36" border="0">
-        Mi portafolio
+        Mi portafolio 2020
       </div>
     </div>
     <div class="float-right">
