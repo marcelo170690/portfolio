@@ -8,7 +8,7 @@
         <img src="https://imgurl.me/images/2020/05/19/github72d0db54fac6309b.png" alt="github">
       </a>
       <a href="" class="btn btn-info">
-        <img src="https://imgurl.me/images/2020/05/19/facebook0ad4907261fba833.png" alt="facebook">
+        <img src="https://imgurl.me/images/2020/05/20/twittera89c9a1e6e8f8e7d.png" alt="twitter">
       </a>
       <a href="" class="btn btn-info">
         <img src="https://imgurl.me/images/2020/05/19/youtube7d576abe84ee8ec8.png" alt="youtube">

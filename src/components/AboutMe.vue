@@ -8,19 +8,43 @@
             <legend class="container__group-title border__orange">HABILIDADES PROFESIONALES</legend>
             <div class="container__group-body">
               <p>
-                <b>BackEnd</b> Lavarel+, NodeJs, Express, SailsJs
+                <b>BackEnd</b> Lavarel+
               </p>
               <p>
-                <b>FrontEnd</b> Vue CLI (VueJs, VueX, VueRouter), React (Route, Redux), C# (En visual Studio Net)
+                <b>FrontEnd</b> Vue CLI (VueJs, VueX, VueRouter)
               </p>
               <p>
                 <b>Style</b> Bootstrap 4.x, Bulma
               </p>
               <p>
-                <b>Base de Datos</b> MySQL, PostgreSql, Sql Server
+                <b>Base de Datos</b> MySQL, Sql Server
               </p>
               <p>
-                <b>Otros</b> Git, GitHub, Axios, fetchApi, GuzzleHttp, Lodash, Postman, Insomnia
+                <b>Trabajo remoto</b> Git, GitHub
+              </p>
+              <p>
+                <b>Otros</b> Axios, fetchApi, GuzzleHttp, Lodash, Postman, Insomnia
+              </p>
+            </div>
+          </fieldset>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="container__new">
+          <fieldset class="container__group-box border__yellow">
+            <legend class="container__group-title border__yellow">ESTOY APRENDIENDO</legend>
+            <div class="container__group-body">
+              <p>
+                <b>BackEnd</b> NodeJs, Express, SailsJs
+              </p>
+              <p>
+                <b>FrontEnd</b> React (Route, Redux)
+              </p>
+              <p>
+                <b>Base de Datos</b> PostgreSql
+              </p>
+              <p>
+                <b>Otros</b> <b class="text-success">GraphQL</b>
               </p>
             </div>
           </fieldset>
@@ -41,7 +65,10 @@
                 <b>Base de Datos</b> Oracle, MongoDB
               </p>
               <p>
-                <b>Otros</b> GitLab, <b class="text-success">GraphQL</b>
+                <b>Remoto</b> GitLab
+              </p>
+              <p>
+                <b>Otros</b> Ciencia de Datos
               </p>
             </div>
           </fieldset>
@@ -134,6 +161,9 @@
   }
   .border__danger{
     border: 0.15em solid #DC4E41;
+  }
+  .border__yellow{
+    border: 0.15em solid #ffee43;
   }
   .container__group-body{
     text-align: justify;
