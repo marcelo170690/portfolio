@@ -7,11 +7,8 @@
       <a href="https://github.com/marcelo170690" target="_blank" class="btn btn-info">
         <img src="https://imgurl.me/images/2020/05/19/github72d0db54fac6309b.png" alt="github">
       </a>
-      <a href="" class="btn btn-info">
+      <a href="https://twitter.com/marcelo__choque" class="btn btn-info">
         <img src="https://imgurl.me/images/2020/05/20/twittera89c9a1e6e8f8e7d.png" alt="twitter">
-      </a>
-      <a href="" class="btn btn-info">
-        <img src="https://imgurl.me/images/2020/05/19/youtube7d576abe84ee8ec8.png" alt="youtube">
       </a>
     </div>
     <button v-if="!ctrlReferences" class="btn float-right btn-success" @mousemove="ctrlReferences=true">
