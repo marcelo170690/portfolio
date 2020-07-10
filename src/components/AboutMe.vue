@@ -7,11 +7,14 @@
           <fieldset class="container__group-box border__orange">
             <legend class="container__group-title border__orange">HABILIDADES PROFESIONALES</legend>
             <div class="container__group-body">
-              <p>
-                <b>BackEnd</b> Lavarel+
+              <p class="text-primary">
+                <b>Estadística</b> Simulación de Sistemas, Estadistica aplicada
               </p>
               <p>
-                <b>FrontEnd</b> Vue CLI (VueJs, VueX, VueRouter)
+                <b>BackEnd</b> Lavarel+, <i class="text-success">Python</i>
+              </p>
+              <p>
+                <b>FrontEnd</b> Vue CLI (VueJs, VueX, VueRouter), <i class="text-success">React, Router, Redux</i>
               </p>
               <p>
                 <b>Style</b> Bootstrap 4.x, Bulma
@@ -32,13 +35,10 @@
       <div class="col-md-4">
         <div class="container__new">
           <fieldset class="container__group-box border__yellow">
-            <legend class="container__group-title border__yellow">ESTOY APRENDIENDO</legend>
+            <legend class="container__group-title border__yellow">CONTINUO APRENDIENDO</legend>
             <div class="container__group-body">
               <p>
-                <b>BackEnd</b> NodeJs, Express, SailsJs
-              </p>
-              <p>
-                <b>FrontEnd</b> React (Route, Redux)
+                <b>FrontEnd</b> React Native
               </p>
               <p>
                 <b>Base de Datos</b> PostgreSql
@@ -56,19 +56,7 @@
             <legend class="container__group-title border__dream">QUIERO APRENDER</legend>
             <div class="container__group-body">
               <p>
-                <b>BackEnd</b> Python
-              </p>
-              <p>
-                <b>FrontEnd</b> Ionic, Angular
-              </p>
-              <p>
-                <b>Base de Datos</b> Oracle, MongoDB
-              </p>
-              <p>
-                <b>Remoto</b> GitLab
-              </p>
-              <p>
-                <b>Otros</b> Ciencia de Datos
+                <b>Otros</b> Machine Learning
               </p>
             </div>
           </fieldset>
@@ -80,6 +68,7 @@
             <legend class="container__group-title border__info">¿A DONDE APUNTO?</legend>
             <div class="container__group-body">
               <div>
+                <p>Aplicar estadística en aplicaciones desarrolladas. (Conocido como ciencia de datos)</p>
                 <p>Ser <b>parte</b> de un equipo de desarrollo de software.</p>
                 <p>No dejar de fomentar al crecimiento de la comunidad VueJs</p>
               </div>
@@ -117,7 +106,7 @@
             <legend class="container__group-title border__danger">DEBILIDADES</legend>
             <div class="container__group-body">
               <p>
-                ASP.NET, C++, jQuery (Muy antiguo), lectura de código proyectos legacy (antiguos)
+                ASP.NET, jQuery (Muy antiguo)
               </p>
             </div>
           </fieldset>
@@ -144,6 +133,9 @@
   .container__group-title{
     border-radius: 0.5em;
   }
+  .container__group-body{
+    text-align: justify;
+  }
   .border__green{
     border: 0.15em solid #79CC42;
   }
@@ -164,12 +156,5 @@
   }
   .border__yellow{
     border: 0.15em solid #ffee43;
-  }
-  .container__group-body{
-    text-align: justify;
-  }
-  .vl {
-    border-left: 3px solid #4b7d80;
-    height: 200px;
   }
 </style>

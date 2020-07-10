@@ -1,6 +1,6 @@
 <template>
   <div class="bg-white p-3 shadow-lg div__scroll">
-    <h4 class="text-center text-muted">MIS PROYECTOS</h4>
+    <h4 class="text-center title-project">MIS PROYECTOS</h4>
     <div class="row">
       <project-component
           v-for="(project, index) in projects"
@@ -13,6 +13,7 @@
 </template>
 
 <script>
+  import './css/Projects.css'
   export default {
     name: "Projects",
     created(){
@@ -26,6 +27,8 @@
           tools: [
             {id: 1, name: 'Vue CLI'},
             {id: 2, name: 'Laravel 7'},
+            {id: 3, name: 'Lodash'},
+            {id: 4, name: 'Bootstrap 4.x'},
           ]
         },
         {
@@ -37,6 +40,7 @@
           tools: [
             {id: 1, name: 'Vue CLI'},
             {id: 2, name: 'Laravel 6'},
+            {id: 3, name: 'Bootstrap 4.x'},
           ]
         },
         {
@@ -48,6 +52,7 @@
           tools: [
             {id: 1, name: 'Vue CLI'},
             {id: 2, name: 'Laravel 7'},
+            {id: 3, name: 'Bootstrap 4.x'},
           ]
         },
         {
@@ -59,28 +64,32 @@
           tools: [
             {id: 1, name: 'Laravel 5.6'},
             {id: 2, name: 'VueJs'},
+            {id: 3, name: 'Bootstrap 4.1'},
           ]
         },
         {
           id: 5,
           name: 'Games Family',
-          description: '(Proyecto personal) Aplicación web que permite el registro de juegos, ver records y juegos mas jugados.',
+          description: '(Proyecto personal donde apliqué CIENCIA DE DATOS - ESTADISTICA) Aplicación web que permite el registro de juegos, ver records y juegos mas jugados.',
           link: 'https://games.team7binary.com/',
           image: 'https://imgurl.me/images/2020/05/18/games4c031947ee88b0b1.png',
           tools: [
             {id: 1, name: 'Vue CLI'},
             {id: 2, name: 'Laravel 5.8'},
+            {id: 3, name: 'Lodash'},
+            {id: 4, name: 'Bootstrap 4.x'},
+            {id: 5, name: 'Google Charts'},
           ]
         },
         {
           id: 6,
-          name: 'Siaccount',
-          description: '(Proyecto personal) Aplicación web que permite el control de cuentas email y la gestion de usuarios, password y paginas en cada una ',
-          link: 'https://github.com/marcelo170690/siaccount',
-          image: 'https://imgurl.me/images/2020/05/18/siaccounte87bbad801d1a201.png',
+          name: 'Curriculum Vitae',
+          description: 'Mi curriculum Vitae',
+          link: 'http://cv.team7binary.com/',
+          image: 'img/marcelo.png',
           tools: [
-            {id: 1, name: 'Laravel 5.6'},
-            {id: 2, name: 'VueJs'},
+            {id: 1, name: 'React'},
+            {id: 2, name: 'Bootstrap 4.x'},
           ]
         },
       ];

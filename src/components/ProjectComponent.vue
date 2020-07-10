@@ -4,7 +4,7 @@
       <div class="card-body row">
         <div class="col-4">
           <div class="text-center">
-            <img :src="project.image" alt="" height="100">
+            <img :src="project.image" alt="" height="100" width="100">
           </div>
         </div>
         <div class="col-8">
